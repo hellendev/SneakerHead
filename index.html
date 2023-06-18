@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SneakerHead</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="logo.png">SneakerHead</a>
+
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="nikeDunkLowRetro.png" class="one">
+        </div><!--home-img-->
+
+        <div class="home-text">
+
+            <h1 id="title">Dunk  Low</h1>
+            <h5 id="price">R$1.199,99 em 10x de R$120,00</h5>
+           
+            <a href="#" class="btn">Alterar Modelo</a>
+            
+        </div><!--home-text-->
+    </section><!--home-->
+
+
+    <div class="main">
+        <div class="row">
+            <li><img src="iconeDunkLowRetro.png" onclick="slider('nikeDunkLowRetro.png')"></li>
+        </div><!--row-->
+
+        <div class="row2">
+            <li><img src="iconeDunkLow.png" onclick="slider('nikeDunkLow.png')"></li>
+        </div><!--row2-->
+
+        <div class="row3">
+            <li><img src="iconeSbDunkLow.png" onclick="slider('nikeSbDunkLow.png')"></li>
+        </div><!--row3-->
+    </div><!--main-->
+
+
+
+
+     
+  
+    <script>
+
+async function fetchAllShoes() {
+  try {
+    const response = await fetch('http://localhost:3000/shoes');
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    const shoes = await response.json();
+    const mainSection = document.querySelector('.main');
+
+    // Remove all existing images
+    mainSection.innerHTML = '';
+
+    shoes.forEach((shoe) => {
+      const imgElement = document.createElement('img');
+      imgElement.src = shoe.image;
+      imgElement.onclick = () => slider(shoe.image);
+      const liElement = document.createElement('li');
+      liElement.appendChild(imgElement);
+      mainSection.appendChild(liElement);
+    });
+  } catch (error) {
+    console.error('Error fetching shoes data:', error);
+  }
+}
+
+
+const updateButton = document.querySelector('.btn');
+updateButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  fetchAllShoes();
+});
+
+
+        function slider (anything){
+            document.querySelector ('.one') .src = anything;
+        };
+
+       let menu = document.querySelector ('#menu-icon');
+       let navbar = document.querySelector ('.navbar');
+
+       menu.onclick = () => {
+        menu.classList.toggle ('bx-x');
+        navbar.classList.toggle ('open');
+       }
+
+
+  
+
+
+    </script>
+    
+</body>
+</html>
