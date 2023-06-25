@@ -29,19 +29,19 @@ O SneakerHead é um aplicativo de catálogo e comunidade para entusiastas de tê
 
 ## Instalação
 
-1. Clone o repositório:
+### 1. Clone o repositório:
 
 ```
 git clone https://github.com/hellendev/SneakerHead.git
 ```
 
-2. Navegue até o diretório do projeto:
+### 2. Navegue até o diretório do projeto:
 
 ```
 cd SneakerHead
 ```
 
-3. Instale as dependências:
+### 3. Instale as dependências:
 
 ```
 npm install
@@ -53,11 +53,11 @@ ou
 yarn install
 ```
 
-4. Configure as chaves de API do Firebase:
+### 4. Configure as chaves de API do Firebase:
 
 Renomeie o arquivo `firebaseConfig.example.js` para `firebaseConfig.js` e adicione suas chaves de API do Firebase no arquivo.
 
-5. Inicie o aplicativo:
+### 5. Inicie o aplicativo:
 
 ```
 npm start
@@ -82,11 +82,7 @@ Contribuições são bem-vindas! Se você quiser contribuir para o SneakerHead, 
 5. Envie para o repositório remoto (`git push origin minha-nova-feature`).
 6. Abra um pull request.
 
-## Autor
+## Autora
 
-Hellendev - [GitHub](https://github.com/hellendev)
+Hellendev - [GitHub](https://github.com/hellendev) [LinkedIn](https://www.linkedin.com/in/hellen-vitoria-032a63234/)
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
-```
