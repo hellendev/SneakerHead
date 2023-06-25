@@ -90,7 +90,3 @@ Hellendev - [GitHub](https://github.com/hellendev)
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
 ```
-
-Certifique-se de substituir `logo.png`, `screenshot1.png` e `screenshot2.png` pelas imagens correspondentes ao seu aplicativo. Além disso, você pode adicionar mais seções ou personalizar o README conforme necessário.
-
-Espero que isso te ajude!
