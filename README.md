@@ -1,6 +1,6 @@
 # SneakerHead
 
-![SneakerHead Logo](logo.png)
+![SneakerHead Logo](Logotipo.png)
 
 O SneakerHead é um aplicativo de catálogo e comunidade para entusiastas de tênis. Ele permite que os usuários pesquisem e descubram novos modelos de tênis, acompanhem lançamentos, marquem seus tênis favoritos e interajam com outros usuários.
 
@@ -15,8 +15,9 @@ O SneakerHead é um aplicativo de catálogo e comunidade para entusiastas de tê
 
 ## Capturas de tela
 
-![SneakerHead Screenshot 1](screenshot1.png)
-![SneakerHead Screenshot 2](screenshot2.png)
+![Dunk Low 1](iconeDunkLow.png)
+![Dunk Low 2](iconeDunkLowRetro.png)
+![Dunk Low 3](iconeSbDunkLow.png)
 
 ## Tecnologias utilizadas
 
