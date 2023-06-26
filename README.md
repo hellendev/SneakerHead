@@ -44,7 +44,9 @@ O SneakerHead é um aplicativo de catálogo e comunidade para entusiastas de tê
 ### 3. Instale as dependências:
 
 ```
+
 `npm install`
+
 ```
 
 ou
