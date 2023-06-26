@@ -21,11 +21,11 @@ O SneakerHead é um aplicativo de catálogo e comunidade para entusiastas de tê
 
 ## Tecnologias utilizadas
 
-- React Native - para o desenvolvimento do aplicativo móvel
-- Firebase - para o armazenamento de dados e autenticação de usuários
-- Redux - para a gestão do estado global do aplicativo
-- Axios - para fazer requisições HTTP para a API do SneakerHead
-- React Navigation - para navegação entre telas
+- [React Native](https://reactnative.dev) - para o desenvolvimento do aplicativo móvel
+- [Firebase](https://firebase.google.com) - para o armazenamento de dados e autenticação de usuários
+- [Redux](https://redux.js.org) - para a gestão do estado global do aplicativo
+- [Axios](https://axios-http.com) - para fazer requisições HTTP para a API do SneakerHead
+- [React Navigation](https://reactnavigation.org) - para navegação entre telas
 
 ## Instalação
 
