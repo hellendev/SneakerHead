@@ -32,25 +32,25 @@ O SneakerHead é um aplicativo de catálogo e comunidade para entusiastas de tê
 ### 1. Clone o repositório:
 
 ```
-git clone https://github.com/hellendev/SneakerHead.git
+`git clone https://github.com/hellendev/SneakerHead.git`
 ```
 
 ### 2. Navegue até o diretório do projeto:
 
 ```
-cd SneakerHead
+`cd SneakerHead`
 ```
 
 ### 3. Instale as dependências:
 
 ```
-npm install
+`npm install`
 ```
 
 ou
 
 ```
-yarn install
+`yarn install`
 ```
 
 ### 4. Configure as chaves de API do Firebase:
@@ -60,13 +60,13 @@ Renomeie o arquivo `firebaseConfig.example.js` para `firebaseConfig.js` e adicio
 ### 5. Inicie o aplicativo:
 
 ```
-npm start
+`npm start`
 ```
 
 ou
 
 ```
-yarn start
+`yarn start`
 ```
 
 Isso iniciará o servidor de desenvolvimento do React Native.
